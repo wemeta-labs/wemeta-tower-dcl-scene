@@ -1,4 +1,6 @@
+import { WeMeta } from "./wemeta"
 
+WeMeta('8938a029-955e-45f1-9e58-cccb4e6a12a7')
 
 const _scene = new Entity('_scene')
 engine.addEntity(_scene)
