@@ -8,13 +8,14 @@
     "watch": "build-ecs --watch",
     "deploy:now": "dcl export && now export",
     "ecs:install": "npm install --save-dev decentraland-ecs@latest",
-    "ecs:install-next": "npm install --save-dev decentraland-ecs@next"
+    "ecs:install-next": "npm install --save-dev decentraland-ecs@next",
+    "deploy": "dcl deploy"
   },
   "devDependencies": {
     "decentraland-ecs": "latest"
   },
   "dependencies": {
-    "decentraland-ecs": "latest",
-    "decentraland-builder-scripts": "latest"
+    "decentraland-builder-scripts": "latest",
+    "decentraland-ecs": "latest"
   }
 }
