@@ -1,6 +1,6 @@
 import { WeMeta } from "./wemeta";
 
-WeMeta("3234c39e-df2e-4b71-80eb-7c90bf2124a9");
+WeMeta("237dc845-5092-4e46-9e45-eb2e0b973b90");
 
 const _scene = new Entity("_scene");
 engine.addEntity(_scene);
