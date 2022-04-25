@@ -28,7 +28,7 @@ export const WeMeta = (SCENE_TOKEN: string) => {
         })
       }
 
-      onPlayerConnectedObservable.add((player) => 
+      onPlayerConnectedObservable.add((player) =>
         sendAnalyticsEvent("player_connected", player)
       )
 
