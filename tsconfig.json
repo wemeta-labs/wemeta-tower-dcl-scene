@@ -3,7 +3,22 @@
     "outFile": "./bin/game.js",
     "allowJs": true,
     "strict": true,
-    "moduleResolution": "node"
+    "paths": {
+      "@dcl/ecs-scene-utils": [
+        "node_modules/@dcl/ecs-scene-utils/dist/index.d.ts"
+      ],
+      "@wemeta/analytics": [
+        "node_modules/@wemeta/analytics/index.d.ts",
+        "node_modules/@wemeta/analytics/dist/index.d.ts"
+      ],
+      "tslib": [
+        "node_modules/tslib/tslib.d.ts"
+      ]
+    },
+    "baseUrl": ".",
+    "target": "es5",
+    "moduleResolution": "node",
+    "jsx": "react-jsx"
   },
   "include": [
     "src/**/*.ts"
