@@ -15,7 +15,7 @@
     "decentraland-ecs": "latest"
   },
   "dependencies": {
-    "@wemeta/analytics": "latest",
+    "@wemeta/analytics": "2.0.0-beta.1",
     "decentraland-builder-scripts": "latest",
     "decentraland-ecs": "latest"
   },
