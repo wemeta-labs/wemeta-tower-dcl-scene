@@ -12,14 +12,16 @@
     "deploy": "dcl deploy"
   },
   "devDependencies": {
-    "decentraland-ecs": "latest"
+    "decentraland-ecs": "^6.11.8"
   },
   "dependencies": {
-    "@wemeta/analytics": "2.0.0-beta.1",
-    "decentraland-builder-scripts": "latest",
-    "decentraland-ecs": "latest"
+    "@wemeta/analytics": "^2.0.0-beta.7",
+    "decentraland-builder-scripts": "latest"
   },
   "bundledDependencies": [
+    "@wemeta/analytics"
+  ],
+  "bundleDependencies": [
     "@wemeta/analytics"
   ]
 }
